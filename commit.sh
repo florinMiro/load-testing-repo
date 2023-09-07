@@ -1,6 +1,6 @@
 baseHash="$(git rev-parse HEAD)"
 
-for i in {6..800}; do
+for i in {800..2000}; do
   echo "new line $i" >> testFile.md
   git add *
   git commit -m "chore: add fake commit $i"
